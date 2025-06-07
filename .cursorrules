@@ -1,0 +1,73 @@
+# VibePilot Cursor Rules
+
+## Project Overview
+VibePilot is an AI Marketing Team Platform demo site featuring 9 specialized AI agents. This is a practice project for learning Claude Code + Cursor + Git Worktree + tmux + GitHub Actions development workflow.
+
+## Development Guidelines
+
+### Code Style
+- Use semantic HTML5 elements
+- Follow BEM naming convention for CSS classes
+- Use ES6+ JavaScript features
+- Maintain consistent indentation (2 spaces)
+- Use meaningful variable and function names
+
+### File Structure
+- index.html: Main landing page
+- styles.css: All styling (responsive, dark mode, animations)
+- app.js: JavaScript functionality (modular classes)
+- data.txt: AI agent data (pipe-delimited format)
+- README.md: Project documentation
+
+### CSS Guidelines
+- Mobile-first responsive design
+- Use CSS Variables for theming
+- Implement dark mode support
+- Use CSS Grid and Flexbox for layouts
+- Optimize for performance and accessibility
+
+### JavaScript Guidelines
+- Use ES6 classes for modular code
+- Implement proper error handling
+- Use async/await for asynchronous operations
+- Follow functional programming principles
+- Add performance monitoring
+
+### Design Principles
+- Professional and modern UI/UX
+- Consistent color palette and typography
+- Smooth animations and transitions
+- Accessible design (WCAG 2.1 compliance)
+- Touch-friendly interface
+
+### Performance
+- Optimize CSS and JavaScript
+- Use efficient selectors
+- Implement lazy loading where appropriate
+- Monitor Core Web Vitals
+
+### AI Agent Data Format
+Each line in data.txt should follow this format:
+Name|Role|Description|Skills (comma-separated)|Icon|Color
+
+### Comments
+- Use clear, descriptive comments
+- Document complex functions and classes
+- Explain business logic and design decisions
+
+### Testing
+- Test on multiple browsers and devices
+- Verify responsive design breakpoints
+- Check dark mode functionality
+- Validate accessibility features
+
+## Preferred Libraries/Frameworks
+- Vanilla JavaScript (no external frameworks)
+- Inter font for typography
+- CSS Grid and Flexbox for layouts
+- CSS Variables for theming
+
+## File Naming
+- Use kebab-case for CSS classes
+- Use camelCase for JavaScript variables/functions
+- Use PascalCase for JavaScript classes
